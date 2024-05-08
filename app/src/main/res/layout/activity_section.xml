@@ -52,6 +52,7 @@
         android:id="@+id/imageButton"
         android:layout_width="137dp"
         android:layout_height="132dp"
+        android:src="@drawable/sectionIMG"
         tools:layout_editor_absoluteX="56dp"
         tools:layout_editor_absoluteY="136dp"
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
