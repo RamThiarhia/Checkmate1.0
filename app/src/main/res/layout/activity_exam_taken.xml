@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exam_taken">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/BoldText"
+        android:layout_width="419dp"
+        android:layout_height="32dp"
+        android:background="@drawable/round_corner_2"
+        android:paddingLeft="10dp"
+        android:paddingTop="6dp"
+        android:text="Courses"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/BoldText"
+        android:layout_width="410dp"
+        android:layout_height="31dp"
+        android:background="#000080"
+        android:paddingTop="6dp"
+        android:text="Sibal, Jairo Kean D."
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="104dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="4dp"
+        android:src="@drawable/sti_logo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="3dp" />
+
+    <ImageView
+        android:id="@+id/notificationBell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_notifications_black_24dp"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sibal, Jairo Kean D."
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="190dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="391dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="391dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/BoldText"
+        android:text="SCORE: 85"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE: 75"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE: NOT YET GRADED"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCORE: NOT YET GRADED"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
