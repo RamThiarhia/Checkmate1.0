@@ -15,7 +15,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="160dp"
-        android:text="Checkmate"
+        android:text="CheckMate"
+        android:fontFamily="@font/koh_bold"
         android:textColor="#FFFF00"
         android:textSize="50sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,40 +36,66 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginEnd="24dp"
-        android:background="@drawable/round_corner"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="16dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
-
-    <EditText
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/round_corner"
+        android:fontFamily="@font/koulen_reg"
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        style="@style/BoldText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/koulen_reg"
+        android:text="REMEMBER ME"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="628dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/BoldText"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/koulen_reg"
+        android:text="FORGOT PASSWORD?"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/koulen_reg"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
 
     <Button
         android:id="@+id/button2"
@@ -76,31 +103,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
+        android:fontFamily="@font/koulen_reg"
         android:padding="2dp"
         android:text="Login"
         android:textColor="@color/black"
         android:textSize="15dp"
-        tools:layout_editor_absoluteX="169dp"
-        tools:layout_editor_absoluteY="582dp" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        style="@style/BoldText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="REMEMBER ME"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="509dp" />
-
-    <TextView
-        android:id="@+id/textView8"
-        style="@style/BoldText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="FORGOT PASSWORD?"
-        android:textColor="@color/white"
-        tools:layout_editor_absoluteX="257dp"
-        tools:layout_editor_absoluteY="526dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="714dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
