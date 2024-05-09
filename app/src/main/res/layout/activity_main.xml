@@ -33,7 +33,7 @@
         app:navGraph="@navigation/mobile_navigation" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton1"
         android:layout_width="137dp"
         android:layout_height="132dp"
         tools:layout_editor_absoluteX="220dp"
@@ -41,7 +41,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton2"
         android:layout_width="137dp"
         android:layout_height="132dp"
         tools:layout_editor_absoluteX="56dp"
@@ -49,7 +49,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton3"
         android:layout_width="137dp"
         android:layout_height="132dp"
         tools:layout_editor_absoluteX="56dp"
@@ -57,7 +57,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton4"
         android:layout_width="137dp"
         android:layout_height="132dp"
         tools:layout_editor_absoluteX="220dp"
@@ -74,7 +74,7 @@
         tools:layout_editor_absoluteY="562dp" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton5"
         android:layout_width="137dp"
         android:layout_height="132dp"
         tools:layout_editor_absoluteX="220dp"
@@ -108,7 +108,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewSection"
         style="@style/BoldText"
         android:layout_width="412dp"
         android:layout_height="32dp"
@@ -172,7 +172,7 @@
         android:layout_width="135dp"
         android:layout_height="19dp"
         android:text="Artificial Intelligence"
-        android: android:textColor="@color/white"
+        android:textColor="@color/white"
         tools:layout_editor_absoluteX="220dp"
         tools:layout_editor_absoluteY="411dp" />
 
