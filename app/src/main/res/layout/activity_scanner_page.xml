@@ -10,21 +10,24 @@
     <Button
         android:id="@+id/button"
         style="@style/BoldText"
-        text
+        android:fontFamily="@font/koulen_reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#000080"
         android:text="SCAN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="773dp" />
 
     <VideoView
         android:id="@+id/videoView2"
         android:layout_width="342dp"
         android:layout_height="504dp"
         tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="113dp" />
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -40,7 +43,8 @@
         android:textColor="@color/white"
         android:textSize="26dp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="60dp" />
+        tools:layout_editor_absoluteY="60dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -49,7 +53,8 @@
         android:layout_marginStart="4dp"
         android:src="@drawable/sti_logo"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="3dp" />
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/notificationBell"
@@ -57,7 +62,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_notifications_black_24dp"
         tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView3"
@@ -68,7 +74,8 @@
         android:textAllCaps="true"
         android:textColor="@color/black"
         tools:layout_editor_absoluteX="249dp"
-        tools:layout_editor_absoluteY="21dp" />
+        tools:layout_editor_absoluteY="21dp"
+        tools:ignore="MissingConstraints" />
 
 
 
