@@ -7,19 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".scanner_page">
 
+
     <Button
         android:id="@+id/button"
         style="@style/BoldText"
-        android:fontFamily="@font/koulen_reg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#000080"
+        android:fontFamily="@font/koulen_reg"
         android:text="SCAN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
+        app:layout_constraintVertical_bias="0.941" />
 
     <VideoView
         android:id="@+id/videoView2"
