@@ -22,8 +22,8 @@ public class scanner_page extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scanner_page); // assuming your layout file is named scanner_page.xml
 
-        btnpicture = findViewById(R.id.btncamera_id);
-        imageView = findViewById(R.id.imageView1);
+        btnpicture = findViewById(R.id.button);
+        imageView = findViewById(R.id.videoView2);
 
         btnpicture.setOnClickListener(new View.OnClickListener() {
             @Override
