@@ -21,6 +21,15 @@
     <string name="remember_me">REMEMBER ME</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="log_in">Login</string>
+    <string name="Content_Description">You are enrolled in this course</string>
+    <string name="mor">Methods of Research</string>
+    <string name="CyberSec">CyberSecurity</string>
+    <string name="web">Web Programming</string>
+    <string name="name">Jairo Kean D. Sibal </string>
+    <string name="game">Game Programming </string>
+    <string name="SE">Software Engineering </string>
+    <string name="AI">Artificial Intelligence </string>
+
 
 
     <string name="lorem_ipsum">
