@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CheckMate1.0</string>
+    <string name="app_name">CheckMate 1.0</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
@@ -31,6 +31,12 @@
     <string name="AI">Artificial Intelligence </string>
     <string name="cpe02">BSCPE602</string>
     <string name="cpe01">BSCPE601</string>
+    <string name="cs01">BSCS601</string>
+    <string name="cs02">BSCPE602</string>
+    <string name="it01">BSIT601</string>
+    <string name="it02">BSIT602</string>
+    <string name="logo">stilogo</string>
+
 
 
 
