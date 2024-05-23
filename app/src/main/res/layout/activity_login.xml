@@ -29,6 +29,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="60dp"
         android:src="@drawable/logo_sti"
+        android:contentDescription="@string/logo_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,10 +49,12 @@
         android:padding="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
+        android:autofillHints="password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -62,32 +65,28 @@
         android:text="@string/remember_me"
         android:textColor="@color/white"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="628dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5"/>
+        app:layout_constraintVertical_bias="0.941" />
 
     <TextView
         android:id="@+id/textView8"
         style="@style/BoldText"
-        android:layout_width="140dp"
-        android:layout_height="35dp"
+        android:layout_width="141dp"
+        android:layout_height="25dp"
         android:fontFamily="@font/koulen_reg"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
         android:textSize="16sp"
-        tools:layout_editor_absoluteX="247dp"
-        tools:layout_editor_absoluteY="639dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5"/>
+        app:layout_constraintVertical_bias="0.923" />
 
     <EditText
         android:id="@+id/editTextEmail"
@@ -103,6 +102,7 @@
         android:padding="16dp"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
+        android:autofillHints="emailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,9 +121,9 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.941" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

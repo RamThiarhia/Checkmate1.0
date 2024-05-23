@@ -169,19 +169,26 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="137dp"
-        android:layout_height="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
         android:text="@string/SE"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="411dp" />
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="135dp"
         android:layout_height="19dp"
+        android:layout_marginStart="220dp"
         android:text="@string/AI"
         android:textColor="@color/white"
-        tools:layout_editor_absoluteX="220dp"
-        tools:layout_editor_absoluteY="411dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.577" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
