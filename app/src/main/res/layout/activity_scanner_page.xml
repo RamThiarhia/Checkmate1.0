@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".scanner_page">
 
-
     <Button
         android:id="@+id/button"
         style="@style/BoldText"
@@ -15,7 +14,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="#000080"
         android:fontFamily="@font/koulen_reg"
-        android:text="SCAN"
+        android:text="@string/scan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -39,11 +38,11 @@
         android:background="#000080"
         android:fontFamily="@font/koulen_reg"
         android:paddingBottom="2dp"
-        android:text="Sibal, Jairo Kean D."
+        android:text="@string/name"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        android:textSize="26dp"
+        android:textSize="26sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="60dp"
         tools:ignore="MissingConstraints" />
@@ -54,25 +53,29 @@
         android:layout_height="57dp"
         android:layout_marginStart="4dp"
         android:src="@drawable/sti_logo"
-        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/sti_logo"
         tools:layout_editor_absoluteY="3dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
 
     <ImageView
         android:id="@+id/notificationBell"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/bell"
         android:src="@drawable/ic_notifications_black_24dp"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         style="@style/BoldText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sibal, Jairo Kean D."
+        android:text="@string/name"
         android:textAllCaps="true"
         android:textColor="@color/black"
         tools:layout_editor_absoluteX="249dp"
