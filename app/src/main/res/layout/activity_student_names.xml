@@ -29,16 +29,17 @@
         style="@style/BoldText"
         android:layout_width="412dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="64dp"
         android:background="#000080"
         android:paddingTop="6dp"
         android:text="@string/name"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@color/white"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
