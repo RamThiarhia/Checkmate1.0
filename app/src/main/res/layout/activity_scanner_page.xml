@@ -22,14 +22,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941" />
 
-    <VideoView
-        android:id="@+id/videoView2"
-        android:layout_width="342dp"
-        android:layout_height="504dp"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="113dp"
-        tools:ignore="MissingConstraints" />
-
     <TextView
         android:id="@+id/textView2"
         style="@style/BoldText"
@@ -48,6 +40,18 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="113dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
         android:id="@+id/imageView"
         android:layout_width="59dp"
         android:layout_height="57dp"
@@ -62,7 +66,7 @@
         android:id="@+id/notificationBell"
         android:layout_width="22dp"
         android:layout_height="20dp"
-        android:layout_marginStart="216dp"
+        android:layout_marginStart="224dp"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/bell"
         android:src="@drawable/ic_notifications_black_24dp"
